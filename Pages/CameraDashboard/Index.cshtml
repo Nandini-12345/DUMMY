@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "Index";
 }
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,69 +12,80 @@
 <body>
     <h1>Display Webcam Stream</h1>
     <div id="container">
-        <video autoplay id="videoElement" class="video-stream"></video>
+        <input type="text" id="ipAddress" placeholder="Enter IP Address">
+        <button onclick="connectToStream()">Submit</button>
     </div>
+    <video autoplay id="videoElement" class="video-stream"></video>
 
     <script src="~/js/Decoder.js"></script>
     <script>
         const video = document.getElementById('videoElement');
+        let ws;
 
-        const ws = new WebSocket('ws://localhost:5055');
+        function connectToStream() {
+            const ipAddress = document.getElementById('ipAddress').value;
+            if (ipAddress) {
+                ws = new WebSocket('ws://' + ipAddress + ':5055');
+                ws.binaryType = 'arraybuffer';
 
-        ws.binaryType = 'arraybuffer';
+                ws.onopen = function (event) {
+                    console.log('WebSocket connection established:', event);
+                };
 
-        ws.onopen = function (event) {
-            console.log('WebSocket connection established:', event);
-        };
+                ws.onmessage = function (event) {
+                    console.log('Received data from WebSocket:', event.data);
 
-        ws.onmessage = function (event) {
-            console.log('Received data from WebSocket:', event.data);
+                    const blob = new Blob([event.data], { type: 'video/webm' });
 
-           
-            const blob = new Blob([event.data], { type: 'video/webm' });
+                    const url = URL.createObjectURL(blob);
 
-           
-            const url = URL.createObjectURL(blob);
+                    video.src = url;
+                };
 
-            video.src = url;
-        };
+                ws.onerror = function (event) {
+                    console.error('WebSocket error:', event);
+                };
 
-        ws.onerror = function (event) {
-            console.error('WebSocket error:', event);
-        };
-
-        ws.onclose = function (event) {
-            console.log('WebSocket connection closed:', event);
-        };
+                ws.onclose = function (event) {
+                    console.log('WebSocket connection closed:', event);
+                };
+            } else {
+                console.error('Please enter IP address');
+            }
+        }
     </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .video-stream {
+            width: 400px;
+            height: 275px;
+            border: 2px solid #333;
+        }
+    </style>
 </body>
 </html>
-
-
-<style>
-
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    h1 {
-        text-align: center;
-        color: #333;
-    }
-
-    #container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-    }
-
-    .video-stream {
-        width: 400px;
-        height: 275px;
-        border: 2px solid #333;
-    }
-
-</style>
