@@ -1,0 +1,31 @@
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\appsettings.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\WebCam Streaming.staticwebassets.runtime.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\WebCam Streaming.exe
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\WebCam Streaming.deps.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\WebCam Streaming.runtimeconfig.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\WebCam Streaming.dll
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\bin\Debug\net7.0\WebCam Streaming.pdb
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.csproj.AssemblyReference.cache
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.AssemblyInfoInputs.cache
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.AssemblyInfo.cs
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.csproj.CoreCompileInputs.cache
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.RazorAssemblyInfo.cache
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.RazorAssemblyInfo.cs
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets\msbuild.WebCam Streaming.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets\msbuild.build.WebCam Streaming.props
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebCam Streaming.props
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebCam Streaming.props
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\scopedcss\bundle\WebCam Streaming.styles.css
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\scopedcss\projectbundle\WebCam Streaming.bundle.scp.css
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.dll
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\refint\WebCam Streaming.dll
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.pdb
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\WebCam Streaming.genruntimeconfig.cache
+C:\Users\nandhini.s\Desktop\C SHARP\WebCam Streaming\obj\Debug\net7.0\ref\WebCam Streaming.dll
